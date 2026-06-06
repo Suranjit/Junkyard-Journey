@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="JunkyardJourney.EditMode.Tests.csproj" />
+  <Project Path="JunkyardJourney.Runtime.csproj" />
+</Solution>
