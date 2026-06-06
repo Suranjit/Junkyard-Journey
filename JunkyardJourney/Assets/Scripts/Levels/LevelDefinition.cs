@@ -15,6 +15,14 @@ public class LevelDefinition
     public StartZoneDefinition startZone;
     public GoalDefinition goal;
     public List<TerrainDefinition> terrain;
+    public List<AvailablePartDefinition> availableParts;
+}
+
+[Serializable]
+public class AvailablePartDefinition
+{
+    public string partId;
+    public int count;
 }
 
 [Serializable]
