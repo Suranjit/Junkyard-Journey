@@ -26,6 +26,13 @@
     "height": 8
   },
 
+  "availableParts": [
+    { "partId": "core_cockpit", "count": 1 },
+    { "partId": "frame_wood", "count": 8 },
+    { "partId": "wheel_small", "count": 4 },
+    { "partId": "engine_basic", "count": 1 }
+  ],
+
   "terrain": [
     {
       "id": "main_ground",

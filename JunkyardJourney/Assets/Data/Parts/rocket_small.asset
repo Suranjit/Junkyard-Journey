@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fb061ee2c9b443eacfda7f306ece4c, type: 3}
+  m_Name: rocket_small
+  m_EditorClassIdentifier: JunkyardJourney.Runtime::PartDefinition
+  partId: rocket_small
+  displayName: 'Small Rocket '
+  partType: 4
+  buildPrefab: {fileID: 2938197612397734459, guid: d1eb3460f5d6745dea0619d331669f8a, type: 3}
+  simulationPrefab: {fileID: 4294098689361615487, guid: 0253da51a12c5458fa308f74d34d55c6, type: 3}
+  mass: 1
+  size: {x: 1.5, y: 0.6}
+  breakForce: 100
+  canRotate: 1
+  allowOverlap: 1
+  anchors:
+  - anchorId: mount
+    anchorType: 1
+    localPosition: {x: -0.75, y: 0}
+    allowedConnections: 00000000

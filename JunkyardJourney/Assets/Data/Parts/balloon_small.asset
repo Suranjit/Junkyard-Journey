@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fb061ee2c9b443eacfda7f306ece4c, type: 3}
+  m_Name: balloon_small
+  m_EditorClassIdentifier: JunkyardJourney.Runtime::PartDefinition
+  partId: balloon_small
+  displayName: Small Balloon
+  partType: 5
+  buildPrefab: {fileID: 7984092974639135179, guid: 8e873e1559db74f66aaed49dc31dbf3c, type: 3}
+  simulationPrefab: {fileID: 917778633999457015, guid: 85bd44cc7946744f1acd7350ae8fa6a9, type: 3}
+  mass: 0.25
+  size: {x: 1.5, y: 2}
+  breakForce: 80
+  canRotate: 1
+  allowOverlap: 1
+  anchors:
+  - anchorId: string_mount
+    anchorType: 1
+    localPosition: {x: 0, y: -1}
+    allowedConnections: 00000000

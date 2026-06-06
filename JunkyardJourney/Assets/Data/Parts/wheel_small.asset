@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fb061ee2c9b443eacfda7f306ece4c, type: 3}
+  m_Name: wheel_small
+  m_EditorClassIdentifier: JunkyardJourney.Runtime::PartDefinition
+  partId: wheel_small
+  displayName: Small Wheel
+  partType: 2
+  buildPrefab: {fileID: 2004257835149609662, guid: 3f89ee4b688a04162abc64328364934c, type: 3}
+  simulationPrefab: {fileID: 3532819944318141886, guid: e488ecaa0f6ed4af4a7ae436744c87fe, type: 3}
+  mass: 0.75
+  size: {x: 1, y: 1}
+  breakForce: 100
+  canRotate: 1
+  allowOverlap: 1
+  anchors:
+  - anchorId: axle
+    anchorType: 2
+    localPosition: {x: 0, y: 0}
+    allowedConnections: 01000000

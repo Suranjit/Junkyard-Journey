@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fb061ee2c9b443eacfda7f306ece4c, type: 3}
+  m_Name: engine_basic
+  m_EditorClassIdentifier: JunkyardJourney.Runtime::PartDefinition
+  partId: engine_basic
+  displayName: Basic Engine
+  partType: 3
+  buildPrefab: {fileID: 2347374521895926569, guid: b43e15564d6384b528c3458e4e37de58, type: 3}
+  simulationPrefab: {fileID: 7484546365894147918, guid: ca331544b061b4a7da8846933ad49912, type: 3}
+  mass: 1.5
+  size: {x: 1.5, y: 1}
+  breakForce: 120
+  canRotate: 1
+  allowOverlap: 1
+  anchors:
+  - anchorId: mount
+    anchorType: 1
+    localPosition: {x: 0, y: 0}
+    allowedConnections: 00000000
+  - anchorId: output
+    anchorType: 3
+    localPosition: {x: 0.75, y: 0}
+    allowedConnections: 00000000
