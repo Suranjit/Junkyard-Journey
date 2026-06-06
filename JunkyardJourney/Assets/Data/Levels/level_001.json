@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "levelId": "junkyard_escape_001",
+  "name": "Wake Up, Scraphead",
+  "description": "The first escape route from the junk pile. Build something that rolls.",
+  "theme": "junkyard",
+  "difficulty": 1,
+
+  "worldBounds": {
+    "minX": -10,
+    "maxX": 90,
+    "minY": -25,
+    "maxY": 35
+  },
+
+  "startZone": {
+    "position": { "x": 0, "y": 3 },
+    "width": 12,
+    "height": 8
+  },
+
+  "goal": {
+    "type": "reach_zone",
+    "position": { "x": 75, "y": 3 },
+    "width": 8,
+    "height": 8
+  },
+
+  "terrain": [
+    {
+      "id": "main_ground",
+      "type": "polyline",
+      "points": [
+        { "x": -10, "y": 0 },
+        { "x": 20, "y": 0 },
+        { "x": 40, "y": 2 },
+        { "x": 60, "y": 0 },
+        { "x": 90, "y": 0 }
+      ],
+      "surface": "scrap_dirt"
+    }
+  ]
+}
